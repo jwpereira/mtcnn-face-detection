@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1609270587918,
+  "lastUpdate": 1609271168350,
   "repoUrl": "https://github.com/acampbel/mtcnn-face-detection",
   "entries": {
     "Benchmark": [
@@ -658,6 +658,344 @@ window.BENCHMARK_DATA = {
             "value": 899662000,
             "unit": "ns/iter",
             "extra": "iterations: 1\ncpu: 899662000 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "acampbel",
+            "username": "acampbel"
+          },
+          "committer": {
+            "name": "acampbel",
+            "username": "acampbel"
+          },
+          "id": "020f07befc602e1fe15a4f1b19e702c8681050fc",
+          "message": "Update main.yml",
+          "timestamp": "2020-12-16T21:38:56Z",
+          "url": "https://github.com/acampbel/mtcnn-face-detection/pull/6/commits/020f07befc602e1fe15a4f1b19e702c8681050fc"
+        },
+        "date": 1609271167565,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=small,imFaces=few)",
+            "value": 165955000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 165955000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=small,imFaces=few)",
+            "value": 137784000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 137784000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=small,imFaces=few)",
+            "value": 137567000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 137567000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=small,imFaces=few)",
+            "value": 135875000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 135875000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=small,imFaces=few)",
+            "value": 134412000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 134412000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=small,imFaces=few)",
+            "value": 134231000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 134231000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=small,imFaces=few)",
+            "value": 138882000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 138882000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=small,imFaces=few)",
+            "value": 133494000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 133494000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=small,imFaces=few)",
+            "value": 135978000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 135978000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=small,imFaces=many)",
+            "value": 184888000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 184888000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=small,imFaces=many)",
+            "value": 187361000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 187361000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=small,imFaces=many)",
+            "value": 190625000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 190625000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=small,imFaces=many)",
+            "value": 195234000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 195234000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=med,imFaces=few)",
+            "value": 291856000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 291856000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=med,imFaces=few)",
+            "value": 297926000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 297926000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=med,imFaces=few)",
+            "value": 298935000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 298935000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=med,imFaces=few)",
+            "value": 294074000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 294074000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=med,imFaces=many)",
+            "value": 318655000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 318655000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=med,imFaces=many)",
+            "value": 320202000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 320202000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=med,imFaces=many)",
+            "value": 330891000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 330891000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=med,imFaces=many)",
+            "value": 316428000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 316428000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=large,imFaces=few)",
+            "value": 820879000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 820879000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=large,imFaces=few)",
+            "value": 822344000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 822344000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=large,imFaces=few)",
+            "value": 809483000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 809483000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=large,imFaces=few)",
+            "value": 818740000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 818740000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=large,imFaces=many)",
+            "value": 779388000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 779388000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=large,imFaces=many)",
+            "value": 796857000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 796857000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=large,imFaces=many)",
+            "value": 781487000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 781487000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=large,imFaces=many)",
+            "value": 770540000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 770540000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=small,imFaces=few)",
+            "value": 113835000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 113835000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=small,imFaces=few)",
+            "value": 112269000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 112269000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=small,imFaces=few)",
+            "value": 113066000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 113066000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=small,imFaces=few)",
+            "value": 115873000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 115873000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=small,imFaces=many)",
+            "value": 161659000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 161659000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=small,imFaces=many)",
+            "value": 159371000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 159371000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=small,imFaces=many)",
+            "value": 149272000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 149272000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=small,imFaces=many)",
+            "value": 153121000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 153121000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=med,imFaces=few)",
+            "value": 267097000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 267097000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=med,imFaces=few)",
+            "value": 266605000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 266605000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=med,imFaces=few)",
+            "value": 266982000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 266982000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=med,imFaces=few)",
+            "value": 277373000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 277373000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=med,imFaces=many)",
+            "value": 281267000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 281267000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=med,imFaces=many)",
+            "value": 276832000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 276832000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=med,imFaces=many)",
+            "value": 282312000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 282312000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=med,imFaces=many)",
+            "value": 274440000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 274440000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=large,imFaces=few)",
+            "value": 804125000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 804125000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=large,imFaces=few)",
+            "value": 805106000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 805106000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=large,imFaces=few)",
+            "value": 780255000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 780255000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=large,imFaces=few)",
+            "value": 809915000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 809915000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=large,imFaces=many)",
+            "value": 788972000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 788972000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=large,imFaces=many)",
+            "value": 766381000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 766381000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=large,imFaces=many)",
+            "value": 779406000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 779406000 ns\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=large,imFaces=many)",
+            "value": 785973000,
+            "unit": "ns/iter",
+            "extra": "iterations: 1\ncpu: 785973000 ns\nthreads: 1"
           }
         ]
       }
