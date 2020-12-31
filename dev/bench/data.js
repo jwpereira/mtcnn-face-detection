@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1609300347004,
+  "lastUpdate": 1609438967446,
   "repoUrl": "https://github.com/acampbel/mtcnn-face-detection",
   "entries": {
     "Benchmark": [
@@ -652,6 +652,98 @@ window.BENCHMARK_DATA = {
             "value": 0.8875284999999999,
             "unit": "s/iter",
             "extra": "iterations: 1\ncpu: 0.885517 s\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "acampbel",
+            "username": "acampbel"
+          },
+          "committer": {
+            "name": "acampbel",
+            "username": "acampbel"
+          },
+          "id": "7eb8eb236e75baf780956d978aa3cb23a6652b77",
+          "message": "Add py benchmark data",
+          "timestamp": "2020-12-30T03:45:56Z",
+          "url": "https://github.com/acampbel/mtcnn-face-detection/pull/8/commits/7eb8eb236e75baf780956d978aa3cb23a6652b77"
+        },
+        "date": 1609438966997,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=small,imFaces=few)",
+            "value": 0.1238195,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.123162 s\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=small,imFaces=many)",
+            "value": 0.17312100000000002,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.171359 s\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=med,imFaces=few)",
+            "value": 0.2739645,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.273125 s\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=med,imFaces=many)",
+            "value": 0.29786199999999996,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.292928 s\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=large,imFaces=few)",
+            "value": 0.785439,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.772392 s\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=large,imFaces=many)",
+            "value": 0.753342,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.749732 s\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=small,imFaces=few)",
+            "value": 0.10664850000000001,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.105757 s\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=small,imFaces=many)",
+            "value": 0.1503285,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.15016000000000002 s\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=med,imFaces=few)",
+            "value": 0.250697,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.25048400000000004 s\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=med,imFaces=many)",
+            "value": 0.26669750000000003,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.266032 s\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=large,imFaces=few)",
+            "value": 0.747792,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.745451 s\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=large,imFaces=many)",
+            "value": 0.729046,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.7281329999999999 s\nthreads: 1"
           }
         ]
       }
