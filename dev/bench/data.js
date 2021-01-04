@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1609789430710,
+  "lastUpdate": 1609792834295,
   "repoUrl": "https://github.com/acampbel/mtcnn-face-detection",
   "entries": {
     "Benchmark": [
@@ -2772,6 +2772,102 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.009893608391279706",
             "extra": "mean: 830.1674999999999 msec\nrounds: 4"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "47190204+acampbel@users.noreply.github.com",
+            "name": "Andy Campbell",
+            "username": "acampbel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2020acbdc413115d22f2c9a0bc1063a60372a9e3",
+          "message": "Update main.yml",
+          "timestamp": "2021-01-04T15:34:38-05:00",
+          "tree_id": "a46441e70078c5b6526b6d629f157aa9eaba070b",
+          "url": "https://github.com/acampbel/mtcnn-face-detection/commit/2020acbdc413115d22f2c9a0bc1063a60372a9e3"
+        },
+        "date": 1609792832936,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=small,imFaces=few)",
+            "value": 0.16847499999999999,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.165423 s\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=small,imFaces=many)",
+            "value": 0.248225,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.236156 s\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=med,imFaces=few)",
+            "value": 0.36864450000000004,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.36334299999999997 s\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=med,imFaces=many)",
+            "value": 0.4007745,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.39405 s\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=large,imFaces=few)",
+            "value": 1.0039365,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.981109 s\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=large,imFaces=many)",
+            "value": 0.990836,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.966128 s\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=small,imFaces=few)",
+            "value": 0.14775,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.1452 s\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=small,imFaces=many)",
+            "value": 0.2061675,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.205565 s\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=med,imFaces=few)",
+            "value": 0.345513,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.338119 s\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=med,imFaces=many)",
+            "value": 0.3754615,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.36625599999999997 s\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=large,imFaces=few)",
+            "value": 0.951017,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.938819 s\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=large,imFaces=many)",
+            "value": 0.9327945,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.922585 s\nthreads: 1"
           }
         ]
       }
