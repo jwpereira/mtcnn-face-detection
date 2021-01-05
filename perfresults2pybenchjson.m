@@ -40,9 +40,9 @@ b.param = missing;
 b.extra_info = struct;
 
 opts.disable_gc = false;
-opts.timer = "tic";
+opts.timer = "tic/toc";
 opts.min_rounds = 4;
-opts.max_time = Inf;
+opts.max_time = realmax;
 opts.min_time = r.CalibrationValue;
 opts.warmup = true;
 b.options = opts;
