@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1609806947875,
+  "lastUpdate": 1609806953657,
   "repoUrl": "https://github.com/acampbel/mtcnn-face-detection",
   "entries": {
     "Benchmark": [
@@ -7356,6 +7356,98 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.004783400559922489",
             "extra": "mean: 852.67575 msec\nrounds: 4"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "acampbel",
+            "username": "acampbel"
+          },
+          "committer": {
+            "name": "acampbel",
+            "username": "acampbel"
+          },
+          "id": "f8a067f4651d6bb4e5466d204c8c73e8020a78b2",
+          "message": "Acampbel patch 1",
+          "timestamp": "2021-01-05T00:22:01Z",
+          "url": "https://github.com/acampbel/mtcnn-face-detection/pull/9/commits/f8a067f4651d6bb4e5466d204c8c73e8020a78b2"
+        },
+        "date": 1609806952664,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=small,imFaces=few)",
+            "value": 0.14738800000000002,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.14606100000000002 s\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=small,imFaces=many)",
+            "value": 0.20331350000000004,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.20119800000000002 s\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=med,imFaces=few)",
+            "value": 0.307933,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.30724399999999996 s\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=med,imFaces=many)",
+            "value": 0.335561,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.330837 s\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=large,imFaces=few)",
+            "value": 0.8469840000000001,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.8380850000000001 s\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testDefaultDetect(imSize=large,imFaces=many)",
+            "value": 0.8183615,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.8095410000000001 s\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=small,imFaces=few)",
+            "value": 0.124684,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.123325 s\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=small,imFaces=many)",
+            "value": 0.17789850000000001,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.176014 s\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=med,imFaces=few)",
+            "value": 0.29364599999999996,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.291601 s\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=med,imFaces=many)",
+            "value": 0.3026665,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.299253 s\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=large,imFaces=few)",
+            "value": 0.8008055000000001,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.789537 s\nthreads: 1"
+          },
+          {
+            "name": "tests.PerformanceTest/testLowLevelDetect(imSize=large,imFaces=many)",
+            "value": 0.785746,
+            "unit": "s/iter",
+            "extra": "iterations: 1\ncpu: 0.7810750000000001 s\nthreads: 1"
           }
         ]
       }
