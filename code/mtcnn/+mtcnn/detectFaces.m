@@ -38,6 +38,5 @@ function [bboxes, scores, landmarks] = detectFaces(im, varargin)
 % Copyright 2019 The MathWorks, Inc.
 
     detector = mtcnn.Detector(varargin{:});
-    pause(.25); % Introduce performance regression
     [bboxes, scores, landmarks] = detector.detect(im);
 end
