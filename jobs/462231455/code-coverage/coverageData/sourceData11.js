@@ -1,0 +1,1 @@
+var sourceData11 = {"FileContents":["classdef (Abstract) NetworkStrategy < handle","    methods","        load(obj)","        pnet = getPNet(obj)","        [probs, correction] = applyRNet(obj, im)","        [probs, correction, landmarks] = applyONet(obj, im)","    end","end"],"CoverageData":{"CoveredLineNumbers":[],"UnhitLineNumbers":[],"HitCount":[0,0,0,0,0,0,0,0]}}
