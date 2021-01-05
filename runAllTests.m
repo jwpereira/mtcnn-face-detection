@@ -7,7 +7,7 @@ import matlab.unittest.plugins.codecoverage.CoverageReport;
 
 suite = testsuite(pwd, 'IncludeSubfolders', true);
 
-resultsDir = "public/jobs/" + getenv("GITHUB_RUN_ID");
+resultsDir = "public/jobs/" + getenv("GITHUB_RUN_NUMBER");
 testResultsDir = resultsDir + "/test-results";
 coverageDir = resultsDir + "/code-coverage";
 [~,~] = mkdir(testResultsDir);
