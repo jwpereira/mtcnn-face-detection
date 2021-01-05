@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1609806943981,
+  "lastUpdate": 1609806947875,
   "repoUrl": "https://github.com/acampbel/mtcnn-face-detection",
   "entries": {
     "Benchmark": [
@@ -7248,6 +7248,114 @@ window.BENCHMARK_DATA = {
             "value": 0.8516095,
             "unit": "s/iter",
             "extra": "iterations: 1\ncpu: 0.848211 s\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "47190204+acampbel@users.noreply.github.com",
+            "name": "Andy Campbell",
+            "username": "acampbel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4e2f1518a581f8df1b8ed5fc1a4fbc50c4420d8f",
+          "message": "Merge pull request #9 from acampbel/acampbel-patch-1\n\nAcampbel patch 1",
+          "timestamp": "2021-01-04T19:31:29-05:00",
+          "tree_id": "e0766fcc879a74b9411780152214bd96c7d0e618",
+          "url": "https://github.com/acampbel/mtcnn-face-detection/commit/4e2f1518a581f8df1b8ed5fc1a4fbc50c4420d8f"
+        },
+        "date": 1609806947325,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "/home/runner/work/mtcnn-face-detection/mtcnn-face-detection/test/tests.PerformanceTest/testDefaultDetect(imSize=small,imFaces=few)",
+            "value": 6.623281022029032,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008514292666983414",
+            "extra": "mean: 150.98257142857145 msec\nrounds: 7"
+          },
+          {
+            "name": "/home/runner/work/mtcnn-face-detection/mtcnn-face-detection/test/tests.PerformanceTest/testDefaultDetect(imSize=small,imFaces=many)",
+            "value": 4.841905725674567,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0015588695423286666",
+            "extra": "mean: 206.53025000000002 msec\nrounds: 4"
+          },
+          {
+            "name": "/home/runner/work/mtcnn-face-detection/mtcnn-face-detection/test/tests.PerformanceTest/testDefaultDetect(imSize=med,imFaces=few)",
+            "value": 3.0648334875966183,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0036178222731361497",
+            "extra": "mean: 326.2820000000001 msec\nrounds: 4"
+          },
+          {
+            "name": "/home/runner/work/mtcnn-face-detection/mtcnn-face-detection/test/tests.PerformanceTest/testDefaultDetect(imSize=med,imFaces=many)",
+            "value": 2.880393807441353,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003387975932126229",
+            "extra": "mean: 347.17475 msec\nrounds: 4"
+          },
+          {
+            "name": "/home/runner/work/mtcnn-face-detection/mtcnn-face-detection/test/tests.PerformanceTest/testDefaultDetect(imSize=large,imFaces=few)",
+            "value": 1.1224040547968883,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0038755368982890583",
+            "extra": "mean: 890.9447500000001 msec\nrounds: 4"
+          },
+          {
+            "name": "/home/runner/work/mtcnn-face-detection/mtcnn-face-detection/test/tests.PerformanceTest/testDefaultDetect(imSize=large,imFaces=many)",
+            "value": 1.1475371271293269,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0035587624721710887",
+            "extra": "mean: 871.4315 msec\nrounds: 4"
+          },
+          {
+            "name": "/home/runner/work/mtcnn-face-detection/mtcnn-face-detection/test/tests.PerformanceTest/testLowLevelDetect(imSize=small,imFaces=few)",
+            "value": 8.070210834258045,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0026883002684472135",
+            "extra": "mean: 123.91250000000001 msec\nrounds: 4"
+          },
+          {
+            "name": "/home/runner/work/mtcnn-face-detection/mtcnn-face-detection/test/tests.PerformanceTest/testLowLevelDetect(imSize=small,imFaces=many)",
+            "value": 5.6346916696718345,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0036269293716126613",
+            "extra": "mean: 177.472 msec\nrounds: 4"
+          },
+          {
+            "name": "/home/runner/work/mtcnn-face-detection/mtcnn-face-detection/test/tests.PerformanceTest/testLowLevelDetect(imSize=med,imFaces=few)",
+            "value": 3.3775910345223576,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0020778012416975866",
+            "extra": "mean: 296.069 msec\nrounds: 4"
+          },
+          {
+            "name": "/home/runner/work/mtcnn-face-detection/mtcnn-face-detection/test/tests.PerformanceTest/testLowLevelDetect(imSize=med,imFaces=many)",
+            "value": 3.184969491973478,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003835492960494126",
+            "extra": "mean: 313.9747500000001 msec\nrounds: 4"
+          },
+          {
+            "name": "/home/runner/work/mtcnn-face-detection/mtcnn-face-detection/test/tests.PerformanceTest/testLowLevelDetect(imSize=large,imFaces=few)",
+            "value": 1.1604525881138903,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0054500666891944115",
+            "extra": "mean: 861.7327499999999 msec\nrounds: 4"
+          },
+          {
+            "name": "/home/runner/work/mtcnn-face-detection/mtcnn-face-detection/test/tests.PerformanceTest/testLowLevelDetect(imSize=large,imFaces=many)",
+            "value": 1.1727787497181668,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004783400559922489",
+            "extra": "mean: 852.67575 msec\nrounds: 4"
           }
         ]
       }
