@@ -1,0 +1,5 @@
+steps:
+  - name: say hello
+    system: echo "this is s system command"
+  - name: run tests
+    command: runAllTests
